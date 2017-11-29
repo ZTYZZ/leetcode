@@ -28,3 +28,8 @@
 
 如果有错误，请批评指正，谢谢！
 
+
+# 目录
+
+1. two sum :https://github.com/ZTYZZ/leetcode/blob/master/Two%20Sum.java
+
