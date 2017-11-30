@@ -32,4 +32,6 @@
 # 目录
 
 1. two sum :https://github.com/ZTYZZ/leetcode/blob/master/Two%20Sum.java
+2. Add Two Numbers: https://leetcode.com/problems/add-two-numbers/description/
+
 
