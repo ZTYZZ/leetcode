@@ -33,5 +33,6 @@
 
 1. two sum :https://github.com/ZTYZZ/leetcode/blob/master/Two%20Sum.java
 2. Add Two Numbers: https://github.com/ZTYZZ/leetcode/blob/master/Add%20Two%20Numbers.java
+3. Longest Substring Without Repeat... https://github.com/ZTYZZ/leetcode/blob/master/3.%20Longest%20Substring%20Without%20Repeating%20Characters.java
 
 
