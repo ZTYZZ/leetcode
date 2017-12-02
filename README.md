@@ -27,6 +27,7 @@
 # 其他
 
 如果有错误，请批评指正，谢谢！
+作者知乎链接：https://www.zhihu.com/people/bing-mo-43-95/activities
 
 
 # 目录
@@ -34,5 +35,4 @@
 1. two sum :https://github.com/ZTYZZ/leetcode/blob/master/Two%20Sum.java
 2. Add Two Numbers: https://github.com/ZTYZZ/leetcode/blob/master/Add%20Two%20Numbers.java
 3. Longest Substring Without Repeat... https://github.com/ZTYZZ/leetcode/blob/master/3.%20Longest%20Substring%20Without%20Repeating%20Characters.java
-
-
+4. Median of Two Sorted Arrays  https://github.com/ZTYZZ/leetcode/blob/master/4.Median%20of%20Two%20Sorted%20Arrays.java
