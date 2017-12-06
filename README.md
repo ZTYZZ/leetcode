@@ -3,7 +3,7 @@
 
 网站习题链接：https://leetcode.com/problemset/all/
 
-作者知乎链接：https://www.zhihu.com/people/bing-mo-43-95/activities
+** 作者知乎链接**：https://www.zhihu.com/people/bing-mo-43-95/activities
 
 # 关于习题
 
@@ -37,3 +37,4 @@
 3. Longest Substring Without Repeat... https://github.com/ZTYZZ/leetcode/blob/master/3.%20Longest%20Substring%20Without%20Repeating%20Characters.java
 4. Median of Two Sorted Arrays  https://github.com/ZTYZZ/leetcode/blob/master/4.Median%20of%20Two%20Sorted%20Arrays.java
 5. Longest Palindromic Substring  https://github.com/ZTYZZ/leetcode/blob/master/5.%20Longest%20Palindromic%20Substring.java
+6. ZigZag Conversion https://github.com/ZTYZZ/leetcode/blob/master/6.%20ZigZag%20Conversion.java
