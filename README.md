@@ -38,3 +38,4 @@
 4. Median of Two Sorted Arrays  https://github.com/ZTYZZ/leetcode/blob/master/4.Median%20of%20Two%20Sorted%20Arrays.java
 5. Longest Palindromic Substring  https://github.com/ZTYZZ/leetcode/blob/master/5.%20Longest%20Palindromic%20Substring.java
 6. ZigZag Conversion https://github.com/ZTYZZ/leetcode/blob/master/6.%20ZigZag%20Conversion.java
+7. Reverse Integer  https://github.com/ZTYZZ/leetcode/blob/master/7.%20Reverse%20Integer.java
