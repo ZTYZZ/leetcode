@@ -27,7 +27,7 @@
 
 # 其他
 
-如果有错误，请批评指正，谢谢！
+如果有错误，有任何建议，我都会接受，请批评指正，谢谢！
 
 
 # 目录
@@ -39,3 +39,4 @@
 5. Longest Palindromic Substring  https://github.com/ZTYZZ/leetcode/blob/master/5.%20Longest%20Palindromic%20Substring.java
 6. ZigZag Conversion https://github.com/ZTYZZ/leetcode/blob/master/6.%20ZigZag%20Conversion.java
 7. Reverse Integer  https://github.com/ZTYZZ/leetcode/blob/master/7.%20Reverse%20Integer.java
+8. String to Integer (atoi) https://github.com/ZTYZZ/leetcode/blob/master/8.%20String%20to%20Integer%20(atoi).java
