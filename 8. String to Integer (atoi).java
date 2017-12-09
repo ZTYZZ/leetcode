@@ -23,45 +23,57 @@ Notes: It is intended for this problem to be specified vaguely (ie, no given inp
 代码如下:
 */
 class Solution {
-    public int myAtoi(String str) {
-        int sybol=1;//符号 0正数 1负数
-        int result = 0;
-        //先判断第一个字符
-        //分情况讨论：
-        //只有"+""-"
-        //空""
-        //非数字，
-        //纯数字
-        if(str==null) {
+	public int myAtoi(String str) {
+        int sybol = 1;//符号显示
+        int index=0;//索引位置
+        int digit;//记录每一位
+        int result=0;//记录结果
+        //1.空串
+
+        if(str.length()==0){
             return 0;
         }
-        if(str.charAt(0)=='-'||str.charAt(0)=='+') 
-            if(str.length()==1)
-                return 0;
-            else if(str.charAt(0)=='-')
+        //2.带有空格进行移除
+        while(str.charAt(index)==' ') {
+            index++;
+        }
+        //3.正数负数
+        if(str.charAt(index)=='+'||str.charAt(index)=='-') {
+           
+            if(str.charAt(index)=='-') {
                 sybol=0;
-            str=str.sustring(1);
+            }
+            index++;
         }
-        return stringToInt(str,sybol);
+
         
-    }
-    public int stringToInt(String str,int sybol) {
-        int digit;
-		int result=0;
-        //逐一扫描
-        while(int i = 0;i<str.length();i++) {
-			digit = str.charAt(i);
-			//如果是数字的话
-            if(digit>='0'||digit<='9') {
-				result = result*10 + digit;
-			}
-			else {
-				return 0;
-			}
+        //4.逐一扫描
+        for(int i = index;i<str.length();i++) {
+            digit=str.charAt(i)-'0';
+            //如果是数字
+            if(digit>=0&&digit<=9){
+                //判断溢出
+                if(Integer.MAX_VALUE/10 < result || Integer.MAX_VALUE/10 == result && Integer.MAX_VALUE %10 < digit)
+                    return sybol == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+                
+                result = result*10+digit;
+                
+            }
+            //如果中途是空格
+            else if(digit==' '-'0'){
+                break;
+            }
+            //如果是非数字非空隔，即为字符
+            else{
+                break;
+            }
         }
-		if(sybol==0){
-			result = -result;
-		}
-    }
-	return result;
+        System.out.println(result);
+        //如果是负数
+        if(sybol==0) {
+            result = -result;
+        }
+        
+        return result;
+	}
 }
