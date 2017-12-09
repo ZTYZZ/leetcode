@@ -40,3 +40,4 @@
 6. ZigZag Conversion https://github.com/ZTYZZ/leetcode/blob/master/6.%20ZigZag%20Conversion.java
 7. Reverse Integer  https://github.com/ZTYZZ/leetcode/blob/master/7.%20Reverse%20Integer.java
 8. String to Integer (atoi) https://github.com/ZTYZZ/leetcode/blob/master/8.%20String%20to%20Integer%20(atoi).java
+9. Palindrome Number  https://github.com/ZTYZZ/leetcode/blob/master/9.%20Palindrome%20Number.java
